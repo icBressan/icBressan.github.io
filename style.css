@@ -98,6 +98,12 @@ a:hover {
   flex-wrap: wrap;
 }
 
+@media (max-width: 480px) {
+  .items {
+    width: 100%;
+  }
+
+}
 
 iframe {
   border: none;
@@ -140,4 +146,43 @@ h2 {
   align-items: center;
   padding-right: 6vh;
   font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  div.tres {
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .items {
+    width: 50%;
+  }
+
+  #navbar {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2vh;
+  }
+
+  #content {
+    width: 100%;
+    height: auto;
+    padding-top: 4vh;
+    justify-content: center;
+    padding-right: 0;
+    overflow: none;
+  }
+
+  h1,
+  h3 {
+    text-align: center;
+  }
+
+  #navbar a {
+    font-size: 1.2rem;
+  }
 }
