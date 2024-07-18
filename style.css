@@ -1,0 +1,143 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, #4a3f5a, #816a8a);
+  color: white;
+  font-size: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.container {
+  margin: 2vh;
+  width: 90vw;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.tres {
+  width: 95%;
+  height: 95%;
+  outline: solid 0.5px #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  border-radius: 10% 0%; 
+}
+
+
+a {
+  box-shadow: inset 0 0 0 0 #fff;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+  box-shadow: inset 100px 0 0 0 #fff;
+  color: #3b1f63;
+  cursor: pointer;
+}
+
+.contentstuff {
+  width: 100%;
+  display: inline-block;
+}
+
+.buttond {
+  box-shadow: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  transition: color .6s ease-in-out, box-shadow .3s ease-in-out;
+  background-color: rgba(255, 122, 89, 0);
+  color: white;
+  margin-bottom: 2rem;
+
+}
+
+.buttond:hover {
+  box-shadow: none;
+  background-color: #FFFFFF;
+  color: #3b1f63;
+  cursor: pointer;
+}
+
+
+#navbar {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapperitems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+iframe {
+  border: none;
+  display: block;
+  margin-top: 2rem;
+}
+
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#navbar.h2 {
+  font-weight: 400;
+}
+
+.social {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  display: inline-block;
+  box-shadow: none;
+  text-decoration: none;
+  border: none;
+  transition: color .6s ease-in-out, box-shadow .3s ease-in-out;
+  color: white;
+}
+
+.social:hover {
+  box-shadow: none;
+  background: none;
+  color: #8740e9;
+  cursor: pointer;
+}
+
+#content {
+  width: 70%;
+  height: 100%;
+  padding: 3vh;
+  display: flex;
+  align-items: center;
+  padding-right: 6vh;
+  font-family: 'Roboto', sans-serif;
+}
