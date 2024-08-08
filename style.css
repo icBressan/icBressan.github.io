@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  background: linear-gradient(to bottom, #4a3f5a, #816a8a);
+  background: linear-gradient(to bottom, #a24bb4, #4b0642);
   color: white;
   font-size: 16px;
   background-repeat: no-repeat;
@@ -93,18 +93,6 @@ a:hover {
   justify-content: center;
 }
 
-.wrapperitems {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-@media (max-width: 480px) {
-  .items {
-    width: 100%;
-  }
-
-}
-
 iframe {
   border: none;
   display: block;
@@ -156,10 +144,6 @@ h2 {
 
   p {
     text-align: center;
-  }
-
-  .items {
-    width: 50%;
   }
 
   #navbar {
